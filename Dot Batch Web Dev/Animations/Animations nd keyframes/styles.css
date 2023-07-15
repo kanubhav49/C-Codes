@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    border:2px solid red;
+    background-color: yellow;
+    height: 215px; 
+
+}
+
+.box{
+    border: 2px solid green;
+    height: 212px;
+    width: 212px;
+    background-color: aqua;
+
+    animation: babbar 1s ease-in 1s 2 normal ;
+}
+
+@keyframes babbar{
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+}

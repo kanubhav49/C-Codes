@@ -1,0 +1,47 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+    
+    flex-direction: row;
+    
+    /* if we want our width of our box to be intact we will use :-  */
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; */
+    
+
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: flex start ; */
+
+    /* align-items:flex-start ;
+    align-items: stretch;
+    align-items: center;
+    align-items: baseline;
+    align-items: flex-start;
+    align-items: baseline; */
+
+    justify-content: center;
+    align-items: center;
+
+    /* gap: 10px; */
+
+    align-content: flex-start;
+    /* align-content: space-evenly;
+    align-content: center;
+    align-content: space-between; */
+    
+    
+
+}
+
+.box{
+    border: 1px solid brown;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+}
